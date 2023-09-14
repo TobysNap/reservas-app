@@ -5,10 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CalendarModule, DateAdapter } from 'angular-calendar';
 import { adapterFactory } from 'angular-calendar/date-adapters/date-fns';
+import { EventsListComponent } from './events/events-list/events-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EventsListComponent
   ],
   imports: [
     BrowserModule,
